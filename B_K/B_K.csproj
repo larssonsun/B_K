@@ -67,7 +67,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\js\jquery-3.2.1.min.js" />
-    <Content Include="BaseBootstrapTemple.html" />
     <Content Include="BaseBootstrapTemplate.html" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
