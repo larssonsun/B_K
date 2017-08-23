@@ -35,6 +35,10 @@ marquee {
 }
 /* 全局 ↑↑↑ */
 
+div.lftNav {
+    background-color:#9CAAD6
+}
+
 div.hydtCol{
-    height:120px;
+    height:220px;
 }
