@@ -1,0 +1,35 @@
+﻿
+.bgc-peru{
+    background-color:peru
+}
+
+.bgc-seagreen{
+    background-color:seagreen
+}
+
+.bgc-red{
+    background-color:red
+}
+
+/*-- 以上css为测试用 --*/
+
+.container {
+    padding: 0;
+}
+
+div[class|="col"]{/*属性class等于col或以col-开头的所有元素*/
+    padding:0
+}
+
+div[class|="row"]{
+    margin:0
+}
+
+embed{
+    display:block
+}
+
+marquee {
+    background-color:#E9E9E9;
+    display:block
+}

@@ -67,7 +67,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\B_Kcss.css" />
+    <Content Include="assets\css\scetia-main.css" />
     <Content Include="assets\js\jquery-3.2.1.min.js" />
+    <Content Include="ScetiaIndex.html" />
     <Content Include="LearnBootstrap.html" />
     <Content Include="BaseBootstrapTemplate.html" />
     <Content Include="packages.config" />
