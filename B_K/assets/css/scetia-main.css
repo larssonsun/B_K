@@ -1,4 +1,4 @@
-﻿
+﻿/*-- 以下css为测试用 --*/
 .bgc-peru{
     background-color:peru
 }
@@ -10,9 +10,9 @@
 .bgc-red{
     background-color:red
 }
-
 /*-- 以上css为测试用 --*/
 
+/* 全局 ↓↓↓ */
 .container {
     padding: 0;
 }
@@ -21,7 +21,7 @@ div[class|="col"]{/*属性class等于col或以col-开头的所有元素*/
     padding:0
 }
 
-div[class|="row"]{
+div.row{
     margin:0
 }
 
@@ -32,4 +32,9 @@ embed{
 marquee {
     background-color:#E9E9E9;
     display:block
+}
+/* 全局 ↑↑↑ */
+
+div.hydtCol{
+    height:120px;
 }
