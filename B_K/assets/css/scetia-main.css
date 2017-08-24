@@ -1,4 +1,5 @@
-﻿/*-- 以下css为测试用 --*/
+﻿/*--测试用 ↓↓↓--*/
+
 .bgc-peru{
     background-color:peru
 }
@@ -10,35 +11,64 @@
 .bgc-red{
     background-color:red
 }
-/*-- 以上css为测试用 --*/
+
+.bgc-brown{
+    background-color:brown
+}
+/* 测试用 ↑↑↑*/
 
 /* 全局 ↓↓↓ */
-.container {
-    padding: 0;
-}
 
-div[class|="col"]{/*属性class等于col或以col-开头的所有元素*/
-    padding:0
+/*--------------清除栅栏布局中的pandding以及margin*/
+.container,div[class|="col"] {/*属性class等于col或以col-开头的所有元素*/
+    padding: 0;
 }
 
 div.row{
     margin:0
 }
+/*--------------清除栅栏布局中的pandding以及margin*/
 
-embed{
-    display:block
+embed {
+    display: block;
 }
 
 marquee {
-    background-color:#E9E9E9;
     display:block
 }
 /* 全局 ↑↑↑ */
 
-div.sw-lftNav {
-    background-color:#9CAAD6
+marquee.sw-mq {
+    background-color:#E9E9E9;
+    height:23px;
+    padding-top:1px;
 }
 
-div.sw-hydtCol{
+div.sw-lftNav {
+    background-color:#9CAAD6;
+    height:1543px
+}
+
+div.sw-hydtRow > div[class|="col"]{
     height:220px;
+}
+
+div.sw-1p3Row > div[class|="col"]{
+    height:250px;
+}
+
+div.sw-1p2Row > div[class|="col"]{
+    height:220px;
+}
+
+div.sw-bbsRow > div[class|="col"]{
+    height:240px;
+}
+
+div.sw-appRow > div[class|="col"]{
+    height:240px;
+}
+
+div.sw-friendlyLinkRow > div[class|="col"]{
+    height:100px;
 }
