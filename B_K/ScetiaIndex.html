@@ -50,15 +50,37 @@
           <div class="col-md-4 col-xs-4 bgc-seagreen">行业动态left</div>
           <div class="col-md-8 col-xs-8 bgc-peru">行业动态right</div>
         </div><!-- 行业动态 -->
-        <div class="row sw-1p3Row bgc-brown">
-          <div class="col-md-4 bgc-peru">综合信息</div>
-          <div class="col-md-4 bgc-red">文件选登</div>
-          <div class="col-md-4 bgc-seagreen">检测专题</div>
+        <div class="row sw-1p3Row">
+          <div class="col-md-12" role="tablist">
+            <ul class="nav nav-pills">
+              <li role="presentation" class="active">
+              <a href="#zhxx" aria-controls="zhxx" role="tab" data-toggle="tab">
+                <p>综合信息</p>
+                <p>intergated info<strong onclick="alert(1);">more</strong><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span></p>
+              </a>
+              </li>
+              <li role="presentation">
+                <a href="#wjxd" aria-controls="wjxd" role="tab" data-toggle="tab">
+                  <p>文件选登</p>
+                  <p>file summary<strong>more</strong><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span></p>
+                </a>
+              </li>
+              <li role="presentation">
+              <a href="#jczt" aria-controls="jczt" role="tab" data-toggle="tab">
+                <p>检测专题</p>
+                <p>test subject<strong>more</strong><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span></p>
+              </a>
+              </li>
+            </ul>
+            <div class="row tab-content bgc-brown">
+              <div role="tabpanel" class="tab-pane active" id="zhxx">综合信息...</div>
+              <div role="tabpanel" class="tab-pane" id="wjxd">文件选登...</div>
+              <div role="tabpanel" class="tab-pane" id="jczt">检测专题...</div>
+            </div>
+          </div>
         </div><!-- 综合信息、文件选登、检测专题  -->
-        <div class="row sw-1p3Row bgc-brown">
-          <div class="col-md-4 bgc-seagreen">考试动态</div>
-          <div class="col-md-4 bgc-peru">继续教育</div>
-          <div class="col-md-4 bgc-red">培训信息</div>
+        <div class="row sw-1p3Row bgc-peru">
+          <div class="col-md-12 bgc-seagreen">考试动态、继续教育、培训信息</div>
         </div><!-- 考试动态、继续教育、培训信息  -->
         <div class="row sw-1p2Row bgc-brown">
           <div class="col-md-6 bgc-red">网上办事</div>
