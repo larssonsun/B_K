@@ -58,6 +58,18 @@ ul.nav-pills li a{
     white-space:nowrap;
 }
 
+.list-group{
+    padding:0;
+    margin:0;
+    
+}
+
+.list-group a{
+    padding:0;
+    margin:0;border:none
+}
+
+
 /* 全局 ↑↑↑ */
 
 marquee.sw-mq {
@@ -79,7 +91,7 @@ div.sw-rightContent{
 /*sw-hydtRow ↓↓↓*/
 
 div.sw-hydtRow {
-    margin-top:16px;
+    margin-top:20px;
 }
 
 div.sw-hydtRow > div[class|="col"]{
@@ -142,7 +154,7 @@ div.sw-hydtRow {
 /*sw-TableRowOne ↓↓↓*/
 
 div.sw-TableRowOne {
-    margin-top:16px;
+    margin-top:20px;
 }
 
 div.sw-TableRowOne ul.nav-pills li{
@@ -245,7 +257,7 @@ div.sw-TableRowOne .tab-content tr:last-child td{
 /*sw-TableRowTwo ↓↓↓*/
 
 div.sw-TableRowTwo {
-    margin-top:16px;
+    margin-top:20px;
 }
 div.sw-TableRowTwo ul.nav-pills li{
     width:33%;
@@ -344,11 +356,56 @@ div.sw-TableRowTwo .tab-content tr:last-child td{
 }
 /*sw-TableRowTwo ↑↑↑*/
 
+/*sw-wsbs ↓↓↓*/
 
+div.sw-wsbs{
+    padding-top:20px;
+}
 
-div.sw-1p2Row > div[class|="col"]{
+div.sw-wsbs > div[class|="col"]{
     height:220px;
 }
+
+div.sw-wsbs .leftContent .titleRow > div[class|="col"]{
+    height:28px;
+}
+
+div.sw-wsbs .leftContent .titleRow > div[class|="col"]:nth-child(2){
+    text-align:right;
+}
+
+div.sw-wsbs .leftContent .titleRow > div[class|="col"]:nth-child(3){
+    height:27px;
+    line-height:27px;
+    text-align:left;
+    border-bottom:1px solid #37C1B2;
+}
+
+div.sw-wsbs .leftContent .titleRow > div[class|="col"]:nth-child(3) > img{
+    padding-left:15px;
+}
+
+div.sw-wsbs .leftContent .contentRow> div[class|="col"]{
+    height:192px;
+}
+
+div.sw-wsbs .leftContent .contentRow > div[class|="col"]:nth-child(1){
+    line-height:192px;
+    text-align:center;
+}
+
+div.sw-wsbs .list-group{
+    padding-top:53px;
+    padding-right:20px;
+}
+
+div.sw-wsbs .list-group a{
+    padding-left:15px;
+    height:23px;
+    line-height:23px;
+}
+
+/*sw-wsbs ↑↑↑*/
 
 div.sw-bbsRow > div[class|="col"]{
     height:240px;
