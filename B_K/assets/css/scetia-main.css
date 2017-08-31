@@ -69,6 +69,24 @@ ul.nav-pills li a{
     margin:0;border:none
 }
 
+.carousel{
+    height:100%;
+}
+
+.carousel .carousel-indicators{
+    margin-top:0;
+}
+
+ .carousel .item {
+    padding:0;
+    margin:0;
+}
+
+.carousel .carousel-caption{
+    padding:0;
+    margin:0;
+    height:17px;
+}
 
 /* 全局 ↑↑↑ */
 
@@ -394,15 +412,48 @@ div.sw-wsbs .leftContent .contentRow > div[class|="col"]:nth-child(1){
     text-align:center;
 }
 
-div.sw-wsbs .list-group{
+div.sw-wsbs .leftContent .list-group{
     padding-top:53px;
     padding-right:20px;
 }
 
-div.sw-wsbs .list-group a{
+div.sw-wsbs .leftContent .list-group a{
     padding-left:15px;
     height:23px;
     line-height:23px;
+}
+
+div.sw-wsbs .rightContent .titleRow > div[class|="col"]{
+    height:38px;
+    text-align:right
+}
+
+div.sw-wsbs .rightContent .titleRow > div[class|="col"] > img{
+    height:38px;
+}
+
+div.sw-wsbs .rightContent .contentRow > div[class|="col"]{
+   height:182px;
+}
+
+
+div.sw-wsbs .rightContent .contentRow  .carousel .carousel-indicators{
+    margin-bottom:-5%;   
+    height:15px;
+}
+
+div.sw-wsbs .rightContent .contentRow  .carousel .carousel-indicators li{
+    background-color:#4B0069
+}
+
+div.sw-wsbs .rightContent .contentRow  .carousel .item {
+    padding-top:5%;
+    padding-left:17%;
+    height:182px;
+}
+
+div.sw-wsbs .rightContent .contentRow  .carousel .carousel-caption{
+    color:#4B0069;
 }
 
 /*sw-wsbs ↑↑↑*/
