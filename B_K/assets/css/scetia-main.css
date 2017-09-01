@@ -564,14 +564,52 @@ div.sw-bbsRow .rightContentRow td:last-child{
     width:100px;
 }
 
-
-
 /*sw-bbsRow ↑↑↑ */
 
-div.sw-appRow > div[class|="col"]{
-    height:240px;
+
+/*sw-appRow ↓↓↓*/
+
+div.sw-appRow {
+    margin-top:10px;
 }
 
+div.sw-appRow > div[class|="col"]{
+    height:166px;
+}
+
+div.sw-appRow .titleRow > div[class|="col"]{
+    height:28px;
+}
+
+div.sw-appRow .contentRow > div[class|="col"]{
+    height:138px;    
+}
+
+div.sw-appRow .contentRow > div[class|="col"]:nth-child(2){
+    border-left:1px solid #eee;
+}
+
+div.sw-appRow .contentRow .title{
+    font-size:17px;
+    height:47px;
+    line-height:47px;
+    text-align:center
+}
+
+div.sw-appRow .contentRow .content > div[class|="col"]{
+    height:91px;
+    text-align:center;
+}
+
+div.sw-appRow .contentRow .content > div[class|="col"] .imgLabel{
+    height:25px;
+    line-height:25px;
+    font-size:15px;
+}
+
+/*sw-appRow ↑↑↑ */
+
 div.sw-friendlyLinkRow > div[class|="col"]{
+    margin-top:16px;
     height:100px;
 }
