@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\B_Kcss.css" />
+    <Content Include="assets\css\memberbbs_login.jpg" />
     <Content Include="assets\css\scetia-main.css" />
     <Content Include="assets\js\jquery-3.2.1.min.js" />
     <Content Include="ScetiaIndex.html" />

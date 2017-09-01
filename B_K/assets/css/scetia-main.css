@@ -97,6 +97,49 @@ marquee.sw-mq {
     border-bottom:2px solid #D8D8D8
 }
 
+.sw-label{
+    padding:0;
+    margin:0;
+    font-weight:normal;
+    margin-left:3px;
+    font-size:7pt;
+    height:7px;
+    line-height:7px;
+    background-color:#FF6500
+}
+
+.sw-form{
+    padding:0;
+    margin:0;
+}
+
+.sw-form .form-group{
+    margin:0;
+    padding:0;
+    margin-top:5px;
+}
+
+.sw-form .form-group label{
+    font-weight:normal;
+    height:23px;
+    line-height:23px;
+    padding:0;
+    padding-right:5px;
+}
+
+.sw-form .form-group input{
+    height:23px;
+    font-size:9px;
+    padding:3px;
+}
+
+.sw-form .form-group button{
+    height:23px;
+    padding:0;
+    font-size:9px;
+    padding:2px 3px 2px 3px;
+}
+
 div.sw-lftNav {
     background-color:#9CAAD6;
     height:1543px
@@ -458,9 +501,72 @@ div.sw-wsbs .rightContent .contentRow  .carousel .carousel-caption{
 
 /*sw-wsbs ↑↑↑*/
 
-div.sw-bbsRow > div[class|="col"]{
-    height:240px;
+/*sw-bbsRow ↓↓↓*/
+
+div.sw-bbsRow {
+    margin-top:10px;
 }
+
+div.sw-bbsRow > div[class|="col"]{
+    height:224px;
+}
+
+div.sw-bbsRow .leftTitleRow > div[class|="col"]{
+    height:28px;
+}
+
+div.sw-bbsRow .leftLoginRow > div[class|="col"]{
+    height:195px;
+    padding-top:6px;
+    background:url(memberbbs_login.jpg) no-repeat center
+}
+
+div.sw-bbsRow .leftLoginRow > div[class|="col"] .sw-form{
+    margin-top:73px;
+    margin-left:55px
+}
+
+div.sw-bbsRow .leftLoginRow > div[class|="col"] .sw-form label{
+    color:#fff;
+}
+
+div.sw-bbsRow .rightContentRow{
+    height:195px;
+}
+
+div.sw-bbsRow .rightCol{
+    padding:0 0 0 12px;
+}
+
+div.sw-bbsRow .rightTitleRow > div[class|="col"]{
+    height:28px;
+    border-bottom:1px solid #C7AE30;
+}
+
+div.sw-bbsRow .rightTitleRow > div[class|="col"] img{
+    padding-top:7px;
+}
+
+div.sw-bbsRow .rightContentRow th{
+    width:10px;
+}
+
+div.sw-bbsRow .rightContentRow tbody > tr > th{
+    border-top-style:dotted
+}
+
+div.sw-bbsRow .rightContentRow tbody > tr > td{
+    border-top-style:dotted
+}
+
+div.sw-bbsRow .rightContentRow td:last-child{
+    text-align:center;
+    width:100px;
+}
+
+
+
+/*sw-bbsRow ↑↑↑ */
 
 div.sw-appRow > div[class|="col"]{
     height:240px;
